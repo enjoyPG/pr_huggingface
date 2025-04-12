@@ -1,4 +1,6 @@
 # DETR (facebook/detr-resnet-50) 모델 소개
+//api 버전은 허깅페이스 api키가 필요해, local은 transformers, dataset 등의 라이브러리 필요해
+//전통의 resnet과 다르게 transformers를 사용해서 성능을 끌어 올린 모델이야
 
 [DETR (DEtection TRansformer)](https://huggingface.co/facebook/detr-resnet-50)는 Facebook AI Research (FAIR)가 발표한 객체 탐지 모델로, 기존의 CNN 기반 방식과는 **완전히 다른 Transformer 기반 아키텍처**를 사용합니다.
 
